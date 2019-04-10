@@ -6,4 +6,4 @@ COPY src /usr/local/maven-project/src
 WORKDIR /usr/local/maven-project
 RUN mvn package
 CMD ["java","-cp","target/maven-project-1.0-SNAPSHOT.jar","com.capstone.app.App"] 
-CMD ["java","test"] 
+CMD ["mvn","test"] 
