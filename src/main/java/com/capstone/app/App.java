@@ -7,7 +7,9 @@ public class App
 
         System.out.println( "hello sir this is mid 2 " );
         System.out.println( "This is a Maven project" );
-        for(int i=0;i<10;i++)
+        for(int i=0;i<10;i++){
             System.out.println(i);
+	    System.out.println("campstone "+i);
+	    }
     }
 }
