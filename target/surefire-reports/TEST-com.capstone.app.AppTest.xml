@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.capstone.app.AppTest" time="0.16" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.capstone.app.AppTest" time="0.081" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
-    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire4209981072970634633\surefirebooter5979747503832709208.jar C:\Windows\Temp\surefire4209981072970634633 2019-04-29T03-07-07_410-jvmRun1 surefire4542812208236663141tmp surefire_02412488732688573595tmp"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire5320515384517249657\surefirebooter6302370655791883742.jar C:\Windows\Temp\surefire5320515384517249657 2019-04-29T13-03-01_400-jvmRun1 surefire4979748091189278471tmp surefire_03400333349231982204tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\bn\Desktop\capdemo\maven-project\target\test-classes;C:\Users\bn\Desktop\capdemo\maven-project\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire4209981072970634633\surefirebooter5979747503832709208.jar"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire5320515384517249657\surefirebooter6302370655791883742.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAdd" classname="com.capstone.app.AppTest" time="0.025">
+  <testcase name="testAdd" classname="com.capstone.app.AppTest" time="0.012">
     <failure type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError
 	at com.capstone.app.AppTest.testAdd(AppTest.java:17)
 </failure>
